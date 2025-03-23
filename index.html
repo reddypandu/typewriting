@@ -165,6 +165,9 @@
 
         <section id="home" class="video-section js-height-full">
             <div class="overlay"></div>
+            <div class="video">
+                <video src="images/typewriter/video.mp4" type="video/mp4" autoplay loop muted></video>
+            </div>
             <div class="home-text-wrapper relative container">
                 <div class="home-message">
                     <p>English & Telugu Typewriting</p>
@@ -178,14 +181,38 @@
                 </div>
             </div>
             <div class="slider-bottom">
+                <a href="#about">
+
+                
                 <span>Explore <i class="fa fa-angle-down"></i></span>
+            </a>
             </div>
         </section>
         
-        <section class="section">
+<style>
+    html {
+    scroll-behavior: smooth;
+}
+    .slider-bottom a{
+        color: white;
+        scroll-behavior: smooth;
+    }
+    #home .video{
+        height: 100vh;
+        overflow: hidden;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: -1;
+
+    }
+</style>
+
+        <section class="section" id="about">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4 hidden-sm hidden-xs">
+                    <div class="col-md-4 hidden-sm hidden-xs" >
                         <div class="custom-module">
                             <img src="images/typewriter/about.jpg" alt="Typewriting" class="img-responsive wow slideInLeft">
                         </div><!-- end module -->

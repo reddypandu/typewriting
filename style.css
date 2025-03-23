@@ -1017,12 +1017,12 @@ SECTIONS
     left: 0;
     bottom: 0;
     z-index: 1;
-    background: repeat center center rgba(0, 0, 0, 0.7);
+    background: repeat center center rgba(0, 0, 0, 0.5);
 }
 
 .video-section {
     position: relative;
-    background: url(images/typewriter/aerial-view-man-typing-retro-typewriter_53876-20519.avif);
+    /* background: url(images/typewriter/aerial-view-man-typing-retro-typewriter_53876-20519.avif); */
 }
 
 .slider-bottom {
