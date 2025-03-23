@@ -40,3 +40,15 @@
 	    $("#preloader").on(500).fadeOut();
 	    $(".preloader").on(600).fadeOut("slow");
 	});
+	   // Back to top button
+	   $(window).scroll(function () {
+        if ($(this).scrollTop() > 300) {
+            $('.back-to-top').fadeIn('slow');
+        } else {
+            $('.back-to-top').fadeOut('slow');
+        }
+    });
+    $('.back-to-top').click(function () {
+        $('html, body').animate({scrollTop: 0}, 1500, 'easeInOutExpo');
+        return false;
+    });

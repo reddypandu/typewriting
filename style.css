@@ -2309,3 +2309,38 @@ RESPONSIVE
         padding: 1em 0.7em;
     }
 }
+
+.back-to-top {
+    position: fixed;
+    display: none;
+    right: 45px;
+    bottom: 45px;
+    z-index: 99;
+}
+.back-to-top,.whatsapp{
+    border-radius: 0;
+    font-size: 14px;
+    border: 1px solid #fff;
+    font-weight: bold;
+    color: #ffffff !important;
+    padding: 6px 8px;
+    text-transform: capitalize;
+    border-color: #f94449;
+    background-color: #f94449;
+    box-shadow: inset 0 0 0 0 #f94449;
+    -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+    transition: all ease 0.5s;
+}
+.back-to-top i,.whatsapp i{
+font-size: 2.5rem;
+}
+.whatsapp {
+    padding: 6px 7px;
+    margin-bottom: 0.1rem;
+    position: fixed;
+   
+    right: 45px;
+    bottom: 95px;
+    z-index: 99;
+}
