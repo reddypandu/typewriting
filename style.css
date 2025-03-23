@@ -1901,8 +1901,9 @@ FOOTER
 
 .copyrights {
     background-color: #000;
-    border-top: 1px solid #181818;
+    border-top: 1px solid #f94449;
     padding: 20px 0;
+
 }
 
 .copyrights a {
@@ -2343,4 +2344,11 @@ font-size: 2.5rem;
     right: 45px;
     bottom: 95px;
     z-index: 99;
+}
+
+footer strong{
+    color: #f94449;
+}
+footer .social{
+    margin-top: 1rem;
 }
